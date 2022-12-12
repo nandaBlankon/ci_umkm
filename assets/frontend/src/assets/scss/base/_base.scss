@@ -1,0 +1,24 @@
+/* generic site wide styles*/
+body {
+    overflow-x: hidden;
+}
+
+p,
+.fs-p {
+    font-size: 1.08rem;
+}
+
+*:focus,
+*:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+img {
+    image-rendering: smooth;
+}
+
+
+.disable-child-pointer * {
+    pointer-events: none;
+}
