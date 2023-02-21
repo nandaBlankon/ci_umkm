@@ -143,6 +143,22 @@
                                         </div>
                                     </div>
                                 <?php endif ?>
+                                <div class="product-option">
+                                        <small class="text-uppercase d-block fw-bolder mb-2">
+                                            Jasa Pengiriman : <span class="selected-option fw-bold"></span>
+                                        </small>
+                                        <div class="form-group">
+                                            <select name="ukuran" class="form-control" data-choices required>
+                                                <option value="">Pilih Jasa Pengiriman</option>
+                                                <option value="JNE (20.000)">JNE</option>
+                                                <option value="Pos Indonesia (15.000)">Pos Indonesia</option>
+                                                <option value="J&T Express (25.000)">J&T Express</option>
+                                                <option value="Sicepat (30.000)">Sicepat</option>
+                                                <option value="Raja Ongkir (25.000)">Raja Ongkir</option>
+                                                <option value="SiCepat (35.000)">SiCepat</option>
+                                            </select>
+                                        </div>
+                                    </div>
                             </div>
                             <!-- /Product Options-->
 
